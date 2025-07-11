@@ -1,16 +1,29 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>
+    <title id="title">
       CACP
     </title>
+    <link rel="scripts.js" type="script">
+    <link rel="styles.css" type="stylesheet">
   </head>
   <body>
-    <h1>
+    <h1 id="heading1">
       CACP
     </h1>
-    <p>
+    <p id="description">
       CACP = Computer And Console Programming
     </p>
+    <select>
+      <button onclick="animate(title)">
+        Animate Title
+      </button>
+      <button onclick="animate(heading1)">
+        Animate Heading 1
+      </button>
+      <button onclick="animate(description)">
+        Animate Paragraph
+      </button>
+    </select>
   </body>
 </html>
